@@ -1,0 +1,604 @@
+Starting project at /home/runner/workspace
+React Compiler enabled
+Metro is running in CI mode, reloads are disabled. Remove CI=true to enable watch mode.
+Starting Metro Bundler
+Waiting on http://localhost:8081
+Logs for your project will appear below.
+Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  3.2% ( 20/111)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  3.2% ( 26/145)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ▓░░░░░░░░░░░░░░░  7.8% ( 69/247)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ▓▓░░░░░░░░░░░░░░ 14.7% (111/290)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ▓▓░░░░░░░░░░░░░░ 16.5% (133/327)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓░░░░░░░░░░░░░ 20.7% (176/387)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓░░░░░░░░░░ 37.8% (283/460)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓░░░░░░░░░░ 37.8% (294/483)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓░░░░░░░░░░ 37.8% (321/633)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓░░░░░░░░░░ 37.8% (326/638)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓░░░░░░░░░░ 37.8% (451/748)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓░░░░░░░░░░ 39.3% (502/801)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓░░░░░░░░░░ 40.1% (577/911)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓░░░░░░░░░░ 40.3% (634/999)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓▓░░░░░░░░░ 49.5% ( 755/1073)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓░░░░░░░ 58.5% ( 865/1131)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓░░░░░░ 63.1% ( 959/1207)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓░░░░░ 69.9% (1031/1233)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓░░░░ 79.3% (1149/1290)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓░░░░ 81.2% (1254/1392)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░ 88.3% (1375/1463)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░ 88.5% (1425/1515)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░ 92.1% (1518/1582)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░ 92.1% (1608/1676)
+[94D[1A[0JWeb Bundled 3745ms node_modules/expo-router/entry.js (1676 modules)
+Web node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░ 92.1% (1608/1676)
+[94D[1A[0JWeb node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[94D[1A[0JWeb Bundled 83ms node_modules/expo-router/entry.js (1 module)
+Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[94D[1A[0JWeb Bundled 82ms node_modules/expo-router/entry.js (1 module)
+Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[94D[1A[0JWeb Bundled 146ms node_modules/expo-router/entry.js (1 module)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+ LOG  [web] Logs will appear in the browser console
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+ LOG  [web] Logs will appear in the browser console
+Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[94D[1A[0JWeb Bundled 76ms node_modules/expo-router/entry.js (1 module)
+Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[94D[1A[0JWeb Bundled 97ms node_modules/expo-router/entry.js (1 module)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+ LOG  [web] Logs will appear in the browser console
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+ LOG  [web] Logs will appear in the browser console
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[94D[1A[0JWeb Bundled 74ms node_modules/expo-router/entry.js (1 module)
+Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[94D[1A[0JWeb Bundled 77ms node_modules/expo-router/entry.js (1 module)
+Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[94D[1A[0JWeb Bundled 102ms node_modules/expo-router/entry.js (1 module)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+ LOG  [web] Logs will appear in the browser console
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+ LOG  [web] Logs will appear in the browser console
+Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[94D[1A[0JWeb Bundled 76ms node_modules/expo-router/entry.js (1 module)
+Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[94D[1A[0JWeb Bundled 102ms node_modules/expo-router/entry.js (1 module)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+ LOG  [web] Logs will appear in the browser console
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+ LOG  [web] Logs will appear in the browser console
+Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[94D[1A[0JWeb Bundled 93ms node_modules/expo-router/entry.js (1 module)
+Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[94D[1A[0JWeb Bundled 76ms node_modules/expo-router/entry.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+ LOG  [web] Logs will appear in the browser console
+Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[94D[1A[0JWeb Bundled 76ms node_modules/expo-router/entry.js (1 module)
+Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[94D[1A[0JWeb Bundled 71ms node_modules/expo-router/entry.js (1 module)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+ LOG  [web] Logs will appear in the browser console
+Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[94D[1A[0JWeb Bundled 73ms node_modules/expo-router/entry.js (1 module)
+ LOG  [web] Logs will appear in the browser console
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+Error: Unauthorized request from https://a556efd1-fce7-40f8-a06b-ade2cf5e67d2-00-23k1e530q96s6.worf.replit.dev. This may happen because of a conflicting browser extension to intercept HTTP requests. Disable browser extensions or use incognito mode and try again.
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/CorsMiddleware.ts:51:11
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at /home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ContextModuleSourceMapsMiddleware.ts:29:7
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at middleware (/home/runner/workspace/node_modules/expo/node_modules/@expo/cli/src/start/server/middleware/ExpoMiddleware.ts:62:16)
+    at call (/home/runner/workspace/node_modules/connect/index.js:239:7)
+    at next (/home/runner/workspace/node_modules/connect/index.js:183:5)
+    at Function.handle (/home/runner/workspace/node_modules/connect/index.js:186:3)
+ LOG  [web] Logs will appear in the browser console

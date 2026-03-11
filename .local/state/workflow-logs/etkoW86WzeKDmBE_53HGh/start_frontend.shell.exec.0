@@ -1,0 +1,24 @@
+Starting project at /home/runner/workspace
+React Compiler enabled
+Metro is running in CI mode, reloads are disabled. Remove CI=true to enable watch mode.
+Starting Metro Bundler
+Waiting on http://localhost:8081
+Logs for your project will appear below.
+Web node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  0.0% (0/1)
+[80D[1A[0JWeb node_modules/expo-router/entry.js ░░░░░░░░░░░░░░░░  3.2% ( 26/145)
+[80D[1A[0JWeb node_modules/expo-router/entry.js ▓░░░░░░░░░░░░░░░ 11.8% ( 97/282)
+[80D[1A[0JWeb node_modules/expo-router/entry.js ▓▓░░░░░░░░░░░░░░ 17.9% (140/331)
+[80D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓░░░░░░░░░░ 38.9% (288/462)
+[80D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓░░░░░░░░░░ 38.9% (318/628)
+[80D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓░░░░░░░░░░ 38.9% (455/747)
+[80D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓░░░░░░░░░░ 38.9% (546/895)
+[80D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓▓░░░░░░░░░ 48.1% ( 732/1056)
+[80D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓░░░░░░░ 57.1% ( 849/1124)
+[80D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓░░░░░ 69.5% (1026/1231)
+[80D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓░░░ 85.1% (1216/1318)
+[80D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓░░░ 85.1% (1365/1482)
+[80D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░ 92.5% (1486/1545)
+[80D[1A[0JWeb node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 93.9% (1636/1688)
+[80D[1A[0JWeb Bundled 1543ms node_modules/expo-router/entry.js (1688 modules)
+Web node_modules/expo-router/entry.js ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 93.9% (1636/1688)
+[80D[1A[0J LOG  [web] Logs will appear in the browser console

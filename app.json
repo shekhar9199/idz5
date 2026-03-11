@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "iDigitalZone",
+    "slug": "nexora",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "idigitalzone",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A0F1C"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.idigitalzone"
+    },
+    "android": {
+      "package": "com.idigitalzone",
+      "softwareKeyboardLayoutMode": "resize",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#0A0F1C"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png",
+      "backgroundColor": "#0A1628"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://replit.com/"
+        }
+      ],
+      "expo-font",
+      "expo-web-browser",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/icon.png",
+          "color": "#0D9488",
+          "defaultChannel": "chat-messages"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {
+        "origin": "https://replit.com/"
+      }
+    }
+  }
+}

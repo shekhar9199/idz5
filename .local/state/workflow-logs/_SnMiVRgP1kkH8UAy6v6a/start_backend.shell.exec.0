@@ -1,0 +1,36 @@
+
+> expo-app@1.0.0 server:dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0KInitializing Stripe schema...
+Stripe schema ready
+Failed to initialize Stripe: Error: Stripe development connection not found
+    at getCredentials [90m(/home/runner/workspace/[39mserver/stripeClient.ts:37:11[90m)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+    at async getStripeSecretKey [90m(/home/runner/workspace/[39mserver/stripeClient.ts:59:25[90m)[39m
+    at async getStripeSync [90m(/home/runner/workspace/[39mserver/stripeClient.ts:68:23[90m)[39m
+    at async initStripe [90m(/home/runner/workspace/[39mserver/index.ts:32:24[90m)[39m
+    at async <anonymous> [90m(/home/runner/workspace/[39mserver/index.ts:290:3[90m)[39m
+Serving static Expo files with dynamic manifest routing
+Development mode: proxying to Expo Metro bundler on port 8081
+Expo routing: Checking expo-platform header on / and /manifest
+express server serving on port 5000
+[HPM] GET / -> http://localhost:8081/ [200]
+[HPM] GET / -> http://localhost:8081/ [200]
+[HPM] GET /node_modules/expo-router/entry.bundle?platform=web&dev=true&hot=false&lazy=true&transform.engine=hermes&transform.routerRoot=app&transform.reactCompiler=true&unstable_transformProfile=hermes-stable -> http://localhost:8081/node_modules/expo-router/entry.bundle?platform=web&dev=true&hot=false&lazy=true&transform.engine=hermes&transform.routerRoot=app&transform.reactCompiler=true&unstable_transformProfile=hermes-stable [200]
+[HPM] Client connected: { address: [32m'127.0.0.1'[39m, family: [32m'IPv4'[39m, port: [33m37226[39m }
+[HPM] Client connected: { address: [32m'127.0.0.1'[39m, family: [32m'IPv4'[39m, port: [33m37238[39m }
+[HPM] GET /favicon.ico -> http://localhost:8081/favicon.ico [200]
+[HPM] GET /assets/?unstable_path=.%2Fnode_modules%2F%40expo-google-fonts%2Finter%2F400Regular/Inter_400Regular.ttf -> http://localhost:8081/assets/?unstable_path=.%2Fnode_modules%2F%40expo-google-fonts%2Finter%2F400Regular/Inter_400Regular.ttf [200]
+[HPM] GET /assets/?unstable_path=.%2Fnode_modules%2F%40expo-google-fonts%2Finter%2F500Medium/Inter_500Medium.ttf -> http://localhost:8081/assets/?unstable_path=.%2Fnode_modules%2F%40expo-google-fonts%2Finter%2F500Medium/Inter_500Medium.ttf [200]
+[HPM] GET /assets/?unstable_path=.%2Fnode_modules%2F%40expo-google-fonts%2Finter%2F600SemiBold/Inter_600SemiBold.ttf -> http://localhost:8081/assets/?unstable_path=.%2Fnode_modules%2F%40expo-google-fonts%2Finter%2F600SemiBold/Inter_600SemiBold.ttf [200]
+[HPM] GET /assets/?unstable_path=.%2Fnode_modules%2F%40expo-google-fonts%2Finter%2F700Bold/Inter_700Bold.ttf -> http://localhost:8081/assets/?unstable_path=.%2Fnode_modules%2F%40expo-google-fonts%2Finter%2F700Bold/Inter_700Bold.ttf [200]
+[HPM] GET /assets/?unstable_path=.%2Fnode_modules%2F%40expo%2Fvector-icons%2Fbuild%2Fvendor%2Freact-native-vector-icons%2FFonts/Ionicons.ttf -> http://localhost:8081/assets/?unstable_path=.%2Fnode_modules%2F%40expo%2Fvector-icons%2Fbuild%2Fvendor%2Freact-native-vector-icons%2FFonts/Ionicons.ttf [200]
+[HPM] GET /assets/?unstable_path=.%2Fassets%2Fimages/splash-logo.png -> http://localhost:8081/assets/?unstable_path=.%2Fassets%2Fimages/splash-logo.png [200]
+[HPM] GET /assets/?unstable_path=.%2Fnode_modules%2F%40expo-google-fonts%2Finter%2F500Medium/Inter_500Medium.ttf -> http://localhost:8081/assets/?unstable_path=.%2Fnode_modules%2F%40expo-google-fonts%2Finter%2F500Medium/Inter_500Medium.ttf [200]
+[HPM] GET /assets/?unstable_path=.%2Fnode_modules%2F%40expo-google-fonts%2Finter%2F700Bold/Inter_700Bold.ttf -> http://localhost:8081/assets/?unstable_path=.%2Fnode_modules%2F%40expo-google-fonts%2Finter%2F700Bold/Inter_700Bold.ttf [200]
+[HPM] GET /assets/?unstable_path=.%2Fnode_modules%2F%40expo-google-fonts%2Finter%2F400Regular/Inter_400Regular.ttf -> http://localhost:8081/assets/?unstable_path=.%2Fnode_modules%2F%40expo-google-fonts%2Finter%2F400Regular/Inter_400Regular.ttf [200]
+[HPM] GET /assets/?unstable_path=.%2Fnode_modules%2F%40expo-google-fonts%2Finter%2F600SemiBold/Inter_600SemiBold.ttf -> http://localhost:8081/assets/?unstable_path=.%2Fnode_modules%2F%40expo-google-fonts%2Finter%2F600SemiBold/Inter_600SemiBold.ttf [200]
+[HPM] GET /favicon.ico -> http://localhost:8081/favicon.ico [200]
+[HPM] Client disconnected: { address: [32m'127.0.0.1'[39m, family: [32m'IPv4'[39m, port: [33m37238[39m }
+[HPM] Client disconnected: { address: [32m'127.0.0.1'[39m, family: [32m'IPv4'[39m, port: [33m37226[39m }

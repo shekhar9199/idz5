@@ -1,0 +1,101 @@
+entrypoint = "README.md"
+modules = ["nodejs-20", "web"]
+
+[nix]
+channel = "stable-25_05"
+
+[deployment]
+deploymentTarget = "autoscale"
+build = ["sh", "-c", "npm run expo:static:build && npm run server:build"]
+run = ["npm", "run", "server:prod"]
+
+[env]
+PORT = "5000"
+
+[agent]
+stack = "EXPO"
+expertMode = true
+integrations = ["stripe:2.0.0"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Start App"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Start Frontend"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Start Backend"
+
+[[workflows.workflow]]
+name = "Start App"
+author = "agent"
+mode = "parallel"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Start Backend"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Start Frontend"
+
+[[workflows.workflow]]
+name = "Start Backend"
+author = "agent"
+mode = "sequential"
+
+[workflows.workflow.metadata]
+outputType = "webview"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npm run server:dev"
+waitForPort = 5000
+
+[[workflows.workflow]]
+name = "Start Frontend"
+author = "agent"
+mode = "sequential"
+
+[workflows.workflow.metadata]
+outputType = "console"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "EXPO_PACKAGER_PROXY_URL=https://$REPLIT_DEV_DOMAIN REACT_NATIVE_PACKAGER_HOSTNAME=$REPLIT_DEV_DOMAIN EXPO_PUBLIC_DOMAIN=$REPLIT_DEV_DOMAIN:5000 EXPO_NO_TELEMETRY=1 CI=1 ./node_modules/.bin/expo start --localhost"
+
+[userenv]
+
+[userenv.shared]
+EXPO_PUBLIC_FIREBASE_API_KEY = "AIzaSyA3UAPUckG8490GTR8JOxsqvZwI8oS1L7Q"
+EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN = "digiindia-7a462.firebaseapp.com"
+EXPO_PUBLIC_FIREBASE_PROJECT_ID = "digiindia-7a462"
+EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET = "digiindia-7a462.firebasestorage.app"
+EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID = "1075298164237"
+EXPO_PUBLIC_FIREBASE_APP_ID = "1:1075298164237:web:6a5ca0878dda7334523f44"
+EXPO_NO_AUTH = "1"
+EXPO_PUBLIC_CLOUDINARY_CLOUD_NAME = "dfiwh5cqr"
+EXPO_PUBLIC_CLOUDINARY_UPLOAD_PRESET = "idigital"
+
+[[ports]]
+localPort = 5000
+externalPort = 5000
+
+[[ports]]
+localPort = 8081
+externalPort = 80
+
+[[ports]]
+localPort = 8082
+externalPort = 3000

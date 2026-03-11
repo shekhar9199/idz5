@@ -1,0 +1,224 @@
+Build a modern, good-looking, user-friendly full-stack app named “Nexora” for client services.
+
+The app should be easy to understand for non-technical users, visually attractive, smooth to interact with, and scalable for future features.
+
+Tech Stack
+
+Frontend: React (Web) with modern UI components
+
+Backend: Node.js + Express
+
+Database: Firebase Firestore
+
+Authentication: Firebase Auth (Email/Password)
+
+UI Styling: Tailwind CSS / Material UI
+
+App Structure
+1️⃣ Authentication (First Screen)
+
+Create a beautiful, modern login page with:
+
+App name & logo: Nexora
+
+Two tabs:
+
+New User (Sign Up)
+
+Existing User (Login)
+
+Fields:
+
+Email
+
+Password
+
+Features:
+
+Password visibility toggle
+
+Form validation
+
+Loading animation
+
+Error messages
+
+Extra options:
+
+“Forgot Password”
+
+Smooth page transitions
+
+After login/signup → redirect to Home Page
+
+2️⃣ Main Navigation
+
+Use bottom navigation or sidebar with:
+
+Home
+
+Services
+
+Contact Us
+
+Profile
+
+Keep UI clean, minimal, and professional
+
+3️⃣ Home Page
+
+Welcome message with user name
+
+Short intro text:
+“Helping you grow digitally with smart services.”
+
+Cards for main services
+
+Highlight premium & popular services
+
+4️⃣ Services Page
+🔹 Service 1: Meta Ads Setup
+
+Card with icon + title
+
+On click → Service Details Page
+
+Service Description:
+
+“Professional Meta Ads (Facebook & Instagram) setup to help you reach the right audience. We handle campaign setup, targeting, creatives, and optimization.”
+
+Actions:
+
+“Book Service” button
+
+When clicked:
+
+Show booking form (name, email, requirement)
+
+Send service request to Admin Panel
+
+Show success confirmation
+
+Chatbot Integration:
+
+User can chat with Admin Chatbot
+
+Used for further communication
+
+Messages stored in Firestore
+
+🔹 Service 2: App Premium Subscription
+
+Show a list of apps with cards:
+
+YouTube Premium
+
+Amazon Prime Video
+
+Sony LIV
+
+Zee5
+
+Each card includes:
+
+App name
+
+Short description
+
+Price (editable later by admin)
+
+“Subscribe / Request” button
+
+Admin can later:
+
+Change price
+
+Enable/disable apps
+
+5️⃣ Contact Us Page
+
+Simple & friendly UI
+
+Fields:
+
+Name
+
+Email
+
+Message
+
+Submit → message sent to admin
+
+Extra Contact Features:
+
+WhatsApp contact button
+
+Email contact button
+
+FAQ section
+
+6️⃣ Admin Panel (Hidden from Users)
+
+Secure admin login
+
+Dashboard:
+
+Total users
+
+Service requests
+
+Messages
+
+Manage Services:
+
+Add / edit / delete services
+
+Update prices & descriptions
+
+View & reply to:
+
+Service bookings
+
+Chat messages
+
+Contact messages
+
+7️⃣ Database Structure (Firestore)
+
+users
+
+services
+
+subscriptions
+
+serviceRequests
+
+messages
+
+8️⃣ UI / UX Requirements
+
+Modern cards
+
+Smooth animations
+
+Mobile-responsive design
+
+Dark / Light mode toggle
+
+Clean fonts & icons
+
+Toast notifications for actions
+
+9️⃣ Code Quality
+
+Clean folder structure
+
+Reusable components
+
+Proper comments
+
+Environment variables for Firebase config
+
+Easy to extend in future
+
+Build the complete working project with sample data.
